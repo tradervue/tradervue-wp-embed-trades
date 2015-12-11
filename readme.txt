@@ -3,8 +3,8 @@ Contributors: greinacker
 Donate link: http://www.rassoc.com/gregr/weblog
 Tags: tradervue, trades, trader
 Requires at least: 3.0.1
-Tested up to: 3.6
-Stable tag: 1.0.0
+Tested up to: 4.4
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,9 @@ To embed that trade into Wordpress, enter the following:
 * 
 
 == Changelog ==
+
+= 1.1 =
+* Tested up to 4.4, bumped version number to re-list in wordpress repository.
 
 = 1.0 =
 * Initial release.
