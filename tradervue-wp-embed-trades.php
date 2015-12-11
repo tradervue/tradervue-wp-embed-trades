@@ -2,13 +2,13 @@
 /*
 Plugin Name: Tradervue Embed Trades
 Description: Allows you to embed shared trades from Tradervue
-Version: 1.0.0
+Version: 1.1.1
 Author: Tradervue
 Author URI: http://www.tradervue.com
 License: GPL2
 */
 
-/*  Copyright 2013 Tradervue  (email : support@tradervue.com)
+/*  Copyright 2013-2015 Tradervue  (email : support@tradervue.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
