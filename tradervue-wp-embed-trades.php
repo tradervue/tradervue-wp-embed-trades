@@ -2,13 +2,13 @@
 /*
 Plugin Name: Tradervue Embed Trades
 Description: Allows you to embed shared trades from Tradervue
-Version: 1.1.1
+Version: 1.2
 Author: Tradervue
 Author URI: http://www.tradervue.com
 License: GPL2
 */
 
-/*  Copyright 2013-2015 Tradervue  (email : support@tradervue.com)
+/*  Copyright 2013-2017 Tradervue  (email : support@tradervue.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -27,7 +27,7 @@ License: GPL2
 // [trade id=12345]
 function tv_trade_func($atts) {
     extract(shortcode_atts(array('id' => ''), $atts));
-    return "<script src='http://www.tradervue.com/sharedt.js?id={$id}'></script>";
+    return "<script src='//www.tradervue.com/sharedt.js?id={$id}'></script>";
 }
 
 add_shortcode("trade", "tv_trade_func");
